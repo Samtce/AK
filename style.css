@@ -18,6 +18,12 @@ body {
   height:45%;
   width:50%;
 }
+.image-smaller{
+  margin-top: 30px;
+  border-radius: 15px;
+  height:40%;
+  width:40%;
+}
 .image-bigger{
   margin-top: 30px;
   border-radius: 15px;
@@ -47,6 +53,10 @@ button {
 }
 .black{
   color: orangered;
+}
+.section-header{
+  font-size: 23px;
+   padding: 0 0px;
 }
 /* Navbar */
 nav {
@@ -139,6 +149,7 @@ section {
   left: 50%;
   margin-right: 50px;
 }
+
 .section_two {
   background-color: #000;
   background-image: url(section-two.jpg);
@@ -234,4 +245,32 @@ footer {
 
 footer .social-icon li a:hover {
   color: purple;
+}
+/* ----------------------------------------------------------------MOBILE SUPPORT-----------------------------------------------------*/
+/* Mobile Support */
+@media only screen and (max-width: 900px) {
+  .info-img{
+    position: absolute;
+    justify-content: center;
+  }
+  .info-box{
+    position: absolute;
+    left: 0%;
+    margin-top: 250px;
+  }
+  .info-box-middle{
+    padding: 0px 40px;
+  }
+  .outline-box{
+    height: 70vh;
+  }
+  .image{
+    height:65%;
+    width:60%;
+  }
+  .image-bigger{
+    height:100%;
+    width:100%;
+  }
+  .section-header
 }
